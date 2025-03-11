@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+img {
+    width: 120px; /* Ширина аватара */
+    height: 120px; /* Высота аватара */
+    border-radius: 50%; /* Делаем изображение круглым */
+    border: 3px solid #007bff; /* Добавляем рамку */
+}
+body {
+    background: linear-gradient(to bottom, yellow, green);
+    height: 100vh; /* Растягиваем фон на весь экран */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
